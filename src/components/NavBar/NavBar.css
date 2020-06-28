@@ -51,13 +51,19 @@ nav ul li a:active {
   text-decoration: underline;
 }
 
-/*@media screen and (min-width: 360px) and (max-width: 700px) {
-    nav ul {
-      display: flex;
-      flex-direction: column;
-      line-height: 2;
-      justify-content: center;
-      align-items: center;
-    }
+@media screen and (min-width: 360px) and (max-width: 700px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
   }
-  */
+}
+
+@media screen and (max-width: 390px) {
+  nav ul {
+    flex-direction: column;
+    line-height: 2;
+  }
+}
