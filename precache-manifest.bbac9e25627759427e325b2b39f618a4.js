@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adbf8c844cc9b985cec3f5d8e715bc2d",
+    "revision": "43f26c19450c952c7c7d772a10e5b8f5",
     "url": "/paula-santos-module-ii/index.html"
   },
   {
-    "revision": "4c04df8a1132cd0ea74e",
+    "revision": "c35009279f982dc25a84",
     "url": "/paula-santos-module-ii/static/css/main.51bf00c1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/paula-santos-module-ii/static/js/2.5a041376.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c04df8a1132cd0ea74e",
-    "url": "/paula-santos-module-ii/static/js/main.d527b5a7.chunk.js"
+    "revision": "c35009279f982dc25a84",
+    "url": "/paula-santos-module-ii/static/js/main.d3770bc1.chunk.js"
   },
   {
     "revision": "58ba730a1f27e1acee2f",
