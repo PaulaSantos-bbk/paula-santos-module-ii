@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/paula-santos-module-ii/static/css/main.faf0a13a.chunk.css",
+    "main.js": "/paula-santos-module-ii/static/js/main.88c582fc.chunk.js",
+    "main.js.map": "/paula-santos-module-ii/static/js/main.88c582fc.chunk.js.map",
+    "runtime-main.js": "/paula-santos-module-ii/static/js/runtime-main.1ddfc0e7.js",
+    "runtime-main.js.map": "/paula-santos-module-ii/static/js/runtime-main.1ddfc0e7.js.map",
+    "static/js/2.25f56314.chunk.js": "/paula-santos-module-ii/static/js/2.25f56314.chunk.js",
+    "static/js/2.25f56314.chunk.js.map": "/paula-santos-module-ii/static/js/2.25f56314.chunk.js.map",
+    "index.html": "/paula-santos-module-ii/index.html",
+    "precache-manifest.66807b6b078dccd535554ab53b30da61.js": "/paula-santos-module-ii/precache-manifest.66807b6b078dccd535554ab53b30da61.js",
+    "service-worker.js": "/paula-santos-module-ii/service-worker.js",
+    "static/css/main.faf0a13a.chunk.css.map": "/paula-santos-module-ii/static/css/main.faf0a13a.chunk.css.map",
+    "static/js/2.25f56314.chunk.js.LICENSE.txt": "/paula-santos-module-ii/static/js/2.25f56314.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ddfc0e7.js",
+    "static/js/2.25f56314.chunk.js",
+    "static/css/main.faf0a13a.chunk.css",
+    "static/js/main.88c582fc.chunk.js"
+  ]
+}
