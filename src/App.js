@@ -1,9 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import logo from "./logo.svg";
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import {
+  HomePage,
+  StarterPage,
+  MainPage,
+  DessertPage,
+  ContactPage,
+} from "./pages";
 
 function App() {
   return (
+    <Switch>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/starter" component={StarterPage} />
+      <Route path="/main" component={MainPage} />
+      <Route path="/dessert" component={DessertPage} />
+      <Route path="/contact" component={ContactPage} />
+    </Switch>
+
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +36,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> 
+    */
   );
 }
 
