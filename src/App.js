@@ -7,6 +7,7 @@ import {
   StarterPage,
   MainPage,
   DessertPage,
+  BreadPage,
   ContactPage,
 } from "./pages";
 
@@ -17,6 +18,7 @@ function App() {
       <Route path="/starter" component={StarterPage} />
       <Route path="/main" component={MainPage} />
       <Route path="/dessert" component={DessertPage} />
+      <Route path="/bread-and-pies" component={BreadPage} />
       <Route path="/contact" component={ContactPage} />
     </Switch>
 
