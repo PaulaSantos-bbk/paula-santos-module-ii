@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto auto;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+}
+
+.heading {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+  color: #800000;
+}
+
+.form {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: left;
+}
+
+label {
+  text-align: left;
+  border-radius: 0.625em;
+
+  font-size: 1.13rem;
+  line-height: 1.8;
+}
+
+input {
+  border: 0.125em solid #800000;
+  background: #fff;
+  text-align: left;
+  border-radius: 0.625em;
+
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 0.5% 0.5% 0.5% 1%;
+}
+
+textarea {
+  border: 0.125em solid #800000;
+  background: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+  border-radius: 0.625em;
+  padding: 1%;
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 0.5% 0.5% 0.5% 1%;
+}
+
+button {
+  border: solid #800000;
+  background: #800000;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.625em;
+  padding: 1%;
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 1.5% 1.5% 1.5% 1%;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+button:active {
+  text-decoration: underline;
+  background: #000;
+}
