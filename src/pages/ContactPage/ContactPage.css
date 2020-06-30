@@ -17,12 +17,12 @@
   grid-column: 2;
   grid-row: 2;
   text-align: left;
+  margin-bottom: 1em;
 }
 
 label {
   text-align: left;
   border-radius: 0.625em;
-
   font-size: 1.13rem;
   line-height: 1.8;
 }
@@ -32,7 +32,6 @@ input {
   background: #fff;
   text-align: left;
   border-radius: 0.625em;
-
   font-size: 1.13rem;
   line-height: 1.8;
   margin: 0.5% 0.5% 0.5% 1%;

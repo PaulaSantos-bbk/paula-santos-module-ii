@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: auto auto;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+}
+
+.hero {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  background: #323232;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background: -webkit-linear-gradient(
+      rgba(50, 50, 50, 1),
+      rgba(50, 50, 50, 0.6)
+    ),
+    url("placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  height: 20em;
+}
+
+.ingredients {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: left;
+  background-color: lawngreen;
+  margin-top: 1em;
+  margin: 1em 0.5em 1em 0;
+  padding: 1em;
+}
+
+.method {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: left;
+  background-color: lightcoral;
+  margin-top: 1em;
+  margin: 1em 0 1em 0.5em;
+  padding: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto;
+  }
+  .hero {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .ingredients {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 1em 0em 1em 0;
+  }
+  .method {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 1em 0em 1em 0;
+  }
+}
