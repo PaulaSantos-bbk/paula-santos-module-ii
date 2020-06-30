@@ -31,21 +31,19 @@
 }
 
 .ingredients {
-  grid-column: 2;
+  grid-column: 2 / 3;
   grid-row: 2;
   text-align: left;
   background-color: lawngreen;
-  margin-top: 1em;
   margin: 1em 0.5em 1em 0;
   padding: 1em;
 }
 
 .method {
-  grid-column: 3;
+  grid-column: 3 / 4;
   grid-row: 2;
   text-align: left;
   background-color: lightcoral;
-  margin-top: 1em;
   margin: 1em 0 1em 0.5em;
   padding: 1em;
 }
