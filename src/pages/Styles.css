@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: auto auto auto auto auto;
+  font-family: "MuseoModerno", cursive;
+  text-align: left;
+}
+
+.hero-home {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  background: #323232;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background: -webkit-linear-gradient(
+      rgba(50, 50, 50, 1),
+      rgba(50, 50, 50, 0.6)
+    ),
+    url("/StarterPage/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  height: 20em;
+}
+
+.hero-starter {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background-image: url("./assets/starter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+
+.hero-main {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background-image: url("/assets/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+}
+
+.hero-dessert {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  background: #323232;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background: url("/StarterPage/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  height: 20em;
+}
+
+.hero-pies {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  background: #323232;
+  color: #ffffff;
+  padding: 1em;
+  margin-top: 1em;
+  background: -webkit-linear-gradient(
+      rgba(50, 50, 50, 1),
+      rgba(50, 50, 50, 0.6)
+    ),
+    url("./StarterPage/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  height: 20em;
+}
+
+.h1 {
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  opacity: 60%;
+  padding: 0.2em;
+}
+
+.ingredients {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  margin: 0 0.5em 1em 0;
+}
+
+.ingredients h2 {
+  text-align: left;
+  background-color: #b5c723;
+  padding: 1em;
+  margin: 1em 0.5em 0 0;
+}
+
+.ingredients-list {
+  text-align: left;
+  background-color: #d8e7be;
+  padding: 1em;
+  margin: 0 0.75em 0 0;
+}
+
+.method {
+  grid-column: 3 / 4;
+  grid-row: 2;
+  margin: 0 0 1em 0.5em;
+}
+
+.method h2 {
+  text-align: left;
+  background-color: #b5c723;
+  padding: 1em;
+  margin: 1em 0 0 0;
+}
+
+.method-list {
+  text-align: left;
+  background-color: #d8e7be;
+  padding: 1em;
+  margin: 0 0 0 0;
+}
+
+/* Form styles */
+
+.heading {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  text-align: center;
+  color: #800000;
+  align-content: center;
+  justify-content: center;
+}
+
+.form {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: left;
+  border-radius: 0.625em;
+  font-size: 1.13rem;
+  line-height: 1.8;
+}
+
+input {
+  border: 0.125em solid #800000;
+  background: #fff;
+  text-align: left;
+  border-radius: 0.625em;
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 0.5% 0.5% 0.5% 1%;
+}
+
+textarea {
+  border: 0.125em solid #800000;
+  background: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+  border-radius: 0.625em;
+  padding: 1%;
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 0.5% 0.5% 0.5% 1%;
+}
+
+button {
+  border: solid #800000;
+  background: #800000;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.625em;
+  padding: 1%;
+  font-size: 1.13rem;
+  line-height: 1.8;
+  margin: 1.5% 1.5% 1.5% 1%;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+button:active {
+  text-decoration: underline;
+  background: #000;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  /* .container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto;
+  }
+  */
+  .hero {
+    grid-column: 2 / 4;
+    grid-row: 1;
+  }
+  .ingredients {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    margin: 1em 0 1em 0;
+  }
+
+  .ingredients h2 {
+    margin: 1em 0 0 0;
+  }
+
+  .ingredients-list {
+    margin: 0;
+  }
+  .method {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    margin: 1em 0 1em 0;
+  }
+
+  .method h2 {
+    margin: 0;
+  }
+
+  .method-list {
+    margin: 0;
+  }
+}

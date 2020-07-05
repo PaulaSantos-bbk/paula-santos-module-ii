@@ -1,10 +1,9 @@
 import React from "react";
-import "../Styles.css";
 
-const DessertPage = () => (
+const PiesPage = () => (
   <div className="container">
-    <div className="hero-dessert">
-      <h1 className="h1">I'm the dessert!!!</h1>
+    <div className="hero-pies">
+      <h1 className="h1">Pies!!!</h1>
     </div>
     <div className="ingredients">
       <h2>Ingredients</h2>
@@ -25,4 +24,4 @@ const DessertPage = () => (
   </div>
 );
 
-export default DessertPage;
+export default PiesPage;

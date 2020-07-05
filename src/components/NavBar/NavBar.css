@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
+
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "MuseoModerno", cursive;
 }
 
 nav {
-  background: #323232;
+  background: #b5c723;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,31 +25,31 @@ nav ul li a {
   text-align: center;
   font-weight: bold;
   font-size: 1.125rem;
-  color: #f6a21d;
+  color: #000000;
   padding: 0.5em 0.75em;
 }
 
 nav #current {
-  color: #fff;
-  border: solid #fff;
+  color: #000000;
+  border: solid #000000;
   border-radius: 0.3125em;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
 /*double check this*/
 nav ul li a.active {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
-  border: solid #fff;
+  border: solid #000000;
   border-radius: 10px;
 }
 
 nav ul li a:active {
-  color: #fff;
+  color: #000000;
   text-decoration: underline;
 }
 

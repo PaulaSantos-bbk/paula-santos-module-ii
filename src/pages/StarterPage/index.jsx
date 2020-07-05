@@ -1,22 +1,27 @@
 import React from "react";
-import "./StarterPage.css";
+//import "./StarterPage.css";
+import "../Styles.css";
 
 const StarterPage = () => (
   <div className="container">
-    <div className="hero">
+    <div className="hero-starter">
       <h1 className="h1">I'm the starter!!!</h1>
     </div>
     <div className="ingredients">
       <h2>Ingredients</h2>
-      <p>ingredient one</p>
-      <p>ingredient two</p>
-      <p>ingredient three</p>
+      <div className="ingredients-list">
+        <p>ingredient one</p>
+        <p>ingredient two</p>
+        <p>ingredient three</p>
+      </div>
     </div>
     <div className="method">
       <h2>Method</h2>
-      <p>step one</p>
-      <p>step two</p>
-      <p>step three</p>
+      <div className="method-list">
+        <p>step one</p>
+        <p>step two</p>
+        <p>step three</p>
+      </div>
     </div>
   </div>
 );
